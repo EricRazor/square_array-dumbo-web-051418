@@ -1,3 +1,5 @@
 def square_array(array)
-  # your code here
+  nuarray = []
+  array.each do |x|
+    nuarray.pop
 end

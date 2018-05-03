@@ -1,6 +1,7 @@
 def square_array(array)
   nuarray = []
   array.each do |x|
-    nuarray.append(x**2)
+    nuarray.pop(x**2)
   end
+  return nuarray
 end

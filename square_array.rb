@@ -1,5 +1,5 @@
 def square_array(array)
   nuarray = []
   array.each do |x|
-    nuarray.pop
+    nuarray.pop(x)
 end
